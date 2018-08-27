@@ -38,8 +38,6 @@ button {
   border-radius: 10px;
   grid-template-columns: repeat(4, 65px);
   grid-template-rows: repeat(7, 45px);
-  /* grid-template-columns: repeat(4, 18%);
-  grid-template-rows: repeat(7, 8%); */
   grid-gap: 10px 15px;
   justify-content: center;
   align-content: center;
