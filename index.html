@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Virtual Calculator</title>
+
+  <link rel="stylesheet" href="/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Changa:200,400|Nunito|Russo+One" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>Virtual Calculator</header>
+    <div class="grid-container">
+      <div id="showcase" class="grid-item">
+        <h1 id="result" class="screen">0</h1>
+        <h2 id="formula" class="screen">0</h2>
+      </div>
+      <button onClick="allClear()" class="clear grid-item">AC</button>
+      <button onClick="clearEntry()" class="clear grid-item">CE</button>
+      <button onClick="percentage()" class="grid-item">%</button>
+      <button class="operations grid-item">÷</button>
+      <button class="number grid-item">7</button>
+      <button class="number grid-item">8</button>
+      <button class="number grid-item">9</button>
+      <button class="operations grid-item">x</button>
+      <button class="number grid-item">4</button>
+      <button class="number grid-item">5</button>
+      <button class="number grid-item">6</button>
+      <button class="operations grid-item">-</button>
+      <button class="number grid-item">1</button>
+      <button class="number grid-item">2</button>
+      <button class="number grid-item">3</button>
+      <button class="operations grid-item">+</button>
+      <button class="number grid-item zero">0</button>
+      <button class="number grid-item">.</button>
+      <button class="operations grid-item">=</button>
+    </div>
+  </div>
+
+  <script src="/main.js" type="text/javascript"></script>
+</body>
+</html>
