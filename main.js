@@ -1,4 +1,3 @@
-/*jshint esversion: 6 */
 const showResult = document.getElementById('result');
 const showFormula = document.getElementById('formula');
 const arrNum = document.getElementsByClassName('number');
