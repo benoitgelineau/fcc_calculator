@@ -1,1 +1,1 @@
-# fcc_calculator
+# Calculator
